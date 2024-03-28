@@ -1,11 +1,11 @@
 //Given an array of strings, use a function to reverse all the elements in the string in ascending order and the specific elements in descending order
 
-function sorting (){
+function sort(){
     let arr1 = ["doctor", "teacher", "nurse", "pilot"];
     console.log(arr1.sort());
     console.log(arr1.reverse());
 }
-sorting()
+sort()
 
 //Using JS functions and an array of numbers, return positive if an element within the array is positive, negative if an element is negative, else zero
 function checkElements() {
